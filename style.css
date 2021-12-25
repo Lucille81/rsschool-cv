@@ -1,6 +1,6 @@
- * {
-	padding: 0;
-	margin: 0;
+* {
+	/* padding: 0; */
+	/* margin: 0; */
 	border: 0;
 	box-sizing: border-box;
 } 
@@ -8,8 +8,8 @@
 body {
 	min-height: 100vh;
 	display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+	flex-direction: column;
+	justify-content: space-between;
 	font-family: serif;
 }
 
@@ -17,11 +17,19 @@ body {
 	border: 1px solid red;
 }
 
+.main{
+	background-color: khaki;
+}
+
+.footer {
+	background-color: lightblue;
+}
+
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
+	max-width: 1440px;
+	margin: 0 auto;
 	border: 1px solid blue;
-  }
+}
 
 .nav-list {
 	display: flex;
