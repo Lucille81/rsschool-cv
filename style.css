@@ -3,10 +3,10 @@
 	margin: 0;
 	/* border: 1px solid red; */
 	box-sizing: border-box;
-} 
+}
 
 html {
-	scroll-behavior: smooth; 
+	scroll-behavior: smooth;
 }
 
 body {
@@ -164,6 +164,14 @@ body {
 	color: #505050;
 	font-weight: 600;
 	border-radius: 0 0 30px 30px;
+}
+
+.blue {
+	color: blue;
+}
+
+.red {
+	color: red;
 }
 
 @media (max-width: 768px) {
